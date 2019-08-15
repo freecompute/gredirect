@@ -1,0 +1,20 @@
+{
+  "name": "recaptcha",
+  "version": "1.0",
+  "description": "redirect the google/recaptcha to recaptcha.net",
+  "permissions": [
+      "webRequest",
+      "webRequestBlocking",
+      "http://*/*",
+      "https://*/*"
+  ],
+  "background": {
+    "scripts": [ "background.js"]
+  },
+  "icons": {
+  },
+  "browser_action": {
+    "default_title": "google recaptcha redirect"
+  },
+  "manifest_version": 2
+}
